@@ -10,6 +10,7 @@ export const App = () => {
         <>
             <Grid container justifyContent="center">
                 <Grid item>
+                    {/* Please change the header title or body text to whatever you wish */}
                     <Header>
                         <Title>SkillStorm Movies</Title>
                         <Body>Enter your text here.</Body>
@@ -77,9 +78,11 @@ export const App = () => {
                                                 </MovieCard.Description>
                                             </Grid>
                                         </Grid>
+                                        {!!movie.imageURL ? 
                                         <Grid item xs={2}>
                                             <Image src={movie.imageURL} width="100%"/>
-                                        </Grid>
+                                        </Grid> :
+                                        null}
                                     </Grid>
                                 </MovieCard.Body>
                             </MovieCard>

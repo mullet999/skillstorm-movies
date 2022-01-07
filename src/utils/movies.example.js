@@ -1,3 +1,12 @@
+/**
+ * Follow the formatting here for each movie you wish to add. Spelling for the keys must be a perfect match, so please
+ * double check your spelling and feel free to copy-paste the final, empty movie object to save time.
+ * 
+ * Beware movie titles or descriptions that may contain either the " or ' characters; if you encounter this,
+ * you may want to switch to using the ` character or escape the problematic character like so: \' or \".
+ * 
+ */
+
 const movies = [{
     title: "Spider-Man: No Way Home",
     description: "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
@@ -58,6 +67,16 @@ const movies = [{
     directors: ["Jon M. Chu"],
     writers: ["Lin-Manuel Miranda", "Quiara Alegría Hudes"],
     actors: ["Anthony Ramos", "Corey Hawkins", "Leslie Grace"]
+}, {
+    title: "",
+    description: "",
+    imageURL: "",
+    releaseYear: "",
+    contentRating: "",
+    runTime: "",
+    directors: [""],
+    writers: [""],
+    actors: ["", ""]
 }];
 
 export default movies;
