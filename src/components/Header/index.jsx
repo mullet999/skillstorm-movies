@@ -18,14 +18,10 @@ const Header = ({children, props}) => {
     return (
         !children ? null : 
         <HeaderBox alignContent="center" textAlign="center" {...props}>
-            <Typography>
+            <Typography component={'span'} variant='body2'>
                 {children}
             </Typography>
         </HeaderBox>
-        
-        // <Paper elevation={5} sx={{padding: '1rem', backgroundColor: '#323E48', color: '#FFFFFF'}}>
-        //     {children}
-        // </Paper>
     );
 };
 
