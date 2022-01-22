@@ -3,7 +3,7 @@ import Header, { Title, Body } from './components/Header';
 import { Movie as MovieCard } from './components/Cards';
 import { DecoratedList } from './components/Lists';
 import { Image } from './components/Image';
-import movies from './utils/movies';
+import movies from './utils/movies.example';
 
 export const App = () => {
     return (
